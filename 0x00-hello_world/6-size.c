@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Description: describe size
+ * Description: Describe size
  *
- * Return: always 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
@@ -16,4 +16,4 @@ int main(void)
 	printf("size of a long long int: %u byte(s)\n", sizeof(long long int));
 	printf("size of a float: %u byte(s)\n", sizeof(float));
 
-		return (0);
+	return (0);
