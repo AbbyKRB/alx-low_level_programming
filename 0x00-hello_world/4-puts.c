@@ -3,9 +3,9 @@
 /**
  * main: entry point
  *
- * description: puts 
+ * Description: c code prints puts 
  *
- * return: always 0
+ * Return: always 0
  */
 int main(void)
 {
