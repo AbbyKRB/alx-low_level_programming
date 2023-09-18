@@ -12,7 +12,7 @@ int main(void)
 	int sum;
 	char c;
 
-	strand(time(NULL));
+	srand(time(NULL));
 	while (sum <= 2645)
 	{
 		c = rand () % 128;
@@ -20,5 +20,5 @@ int main(void)
 		putchar(c);
 	}
 	putchar(2772 - sum);
-	return(0);
+	return (0);
 }
